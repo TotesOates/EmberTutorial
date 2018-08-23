@@ -3,8 +3,8 @@
 Your Contact Info <br>
 {{textarea value=emailAddress class='form-control' style='width: 50px;' type='text' placeholder="Type in your email"}}<br>
 Message:<br>
-{{textarea class="form-control" placeholder="Your Message. (Atleast 5 characters long)" rows="7" value=message}}
-<button {{action 'sendMessage'}} type="button">Submit</button>
+{{textarea enter='update' class="form-control" placeholder="Your Message. (Atleast 5 characters long)" rows="7" value=message}}
+<button disabled={{isDisabled}} {{action 'sendMessage'}} type="button">Submit</button>
 </form>
 {{#if responseMessage}}
   <div class='alert alert-success'>{{responseMessage}}</div>
