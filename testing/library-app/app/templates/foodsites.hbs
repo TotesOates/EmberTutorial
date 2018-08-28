@@ -1,0 +1,9 @@
+<h1>Places To Eat</h1>
+<div class='well'>
+    <ul class="nav nav-pills">
+        {{#link-to 'foodsites.index' tagName="li"}}<a href="">List All </a>{{/link-to}}
+        {{#link-to 'foodsites.new' tagName="li"}}<a href="">Add new </a>{{/link-to}}
+        
+    </ul>
+</div>
+{{outlet}}
