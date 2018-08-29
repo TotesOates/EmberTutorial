@@ -19,6 +19,7 @@ Router.map(function() {
   this.route('foodsites', function() {
     this.route('new');
   });
+  this.route('projects');
 });
 
 export default Router;
