@@ -23,4 +23,5 @@
 /package.json.ember-try
 
 #api-keys
-/config/environment.js
+/library-app/config/environment.js
+/testing/library-app/config/environment.js
